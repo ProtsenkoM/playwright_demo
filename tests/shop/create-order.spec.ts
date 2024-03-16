@@ -18,8 +18,8 @@ test('create an order should display success page with order details', async () 
   await cart.checkout();
 
   await paymentPage.billingDetails.fillOutForm({
-    name: 'IlarionIlarion',
-    email: 'hilarion@gmail.com',
+    name: 'MikhailProtsenko',
+    email: 'protsenko@gmail.com',
     streetAddress: 'Washington',
     zipCode: '51200',
     apartment: '123',

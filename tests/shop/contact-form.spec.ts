@@ -20,8 +20,8 @@ test('contact page has a map', async () => {
 
 test('submit contact form navigates to success page', async () => {
   await contactUsPage.form.fillOutForm({
-    name: 'IlarionIlarion',
-    email: 'halushka@gmail.com',
+    name: 'MikhailProtsenko',
+    email: 'protsenko@gmail.com',
     message: 'I have a problem',
   });
 
