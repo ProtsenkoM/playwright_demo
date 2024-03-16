@@ -2,7 +2,7 @@ import { test, expect, Page } from '@playwright/test';
 import { TopNavigationComponent } from '../../components/TopNavigationComponents';
 import { OurStoryPage } from '../../pages/OurStoryPage';
 import { ProductsListPage } from '../../pages/ProductListPage';
-import { ContactUsPage } from '../../pages/ContactUSPage';
+import { ContactUsPage } from '../../pages/ContactUsPage';
 
 let page: Page;
 let topNavigation: TopNavigationComponent;
